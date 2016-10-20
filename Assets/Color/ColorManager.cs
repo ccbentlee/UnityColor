@@ -56,5 +56,6 @@ public class ColorManager : MonoBehaviour, IDragHandler
     {
         Color endColor=CRGB.GetColorBySliderValue(value);
         CP.SetColorPanel(endColor);
+        CC.setShowColor();
     }
 }
